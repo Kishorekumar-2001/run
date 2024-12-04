@@ -1,0 +1,1082 @@
+.overall{
+    height: 500px;
+    background-color: violet;
+    background-image: linear-gradient(to top,rgb(112, 2, 112),black);
+    
+}
+.overall a{
+    text-decoration: none;
+    color: black;
+}
+.container1{
+    /* width: 100%; */
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+}
+.container3,.container4,.container5{
+
+    animation: app linear;
+    animation-timeline: view();
+    animation-range: entry 0%;
+}
+@keyframes app{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+ .box1{
+    width: 50%;
+    height: 500px;
+    background-color: lightblue;
+    background-image: linear-gradient(to top,blueviolet,purple);
+    /* background-image: linear-gradient(to top,purple,black); */
+    box-sizing: border-box;
+}
+.box1 h1{
+    margin: 20px;
+}
+.box1 h2{
+    margin-left: 20px;
+    position: relative;
+}
+#About{
+    text-decoration: none;
+    color: black;
+}
+.box1 h2::after{
+    content: "";
+    position: absolute;
+    animation-name: z1;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    /* position: relative; */
+}
+@keyframes z1{
+    0%{
+       content: "Front-end devloper";
+       color: orange;
+       /* transform: translatey(-50px); */
+    }
+    50%{
+        content: "full stack devloper";
+        color: orange;
+    }
+    100%{
+        content: "java developer";
+        color: orange;
+    }
+
+}
+
+
+
+.box1 p{
+    margin: 20px;
+}
+.resume{
+    width: 130px;
+    height: 50px;
+    margin: 20px;
+    background-color: blueviolet;
+    background-image: linear-gradient(to top,blueviolet,purple);
+    box-sizing: border-box;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+.resume h6{
+    /* margin-top: 30px; */
+}
+.box2{
+    width: 50%;
+    height: 500px;
+    background-color: lightseagreen;
+    background-image: linear-gradient(to top,blueviolet,purple);
+    /* background-image: linear-gradient(to top,purple,black); */
+} 
+.profile{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 100px;
+    background-color: chocolate;
+    background-image:url("https://img.freepik.com/premium-photo/caucasian-man-s-portrait-purple-blue-studio-background-multicolored-neon-light-beautiful-male_908985-76476.jpg?w=740") ;
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+}
+.profile:hover{
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    background-size: 370px 370px;
+    transition: all 1s;
+}
+.container2{
+    width: 100%;
+    height: 450px;
+    background-color: rgba(24, 44, 44, 0.863);
+    /* background-image: linear-gradient(to top,rgb(112, 2, 112),black); */
+    /* background-image: linear-gradient(to top,blueviolet,purple); */
+    background-image: linear-gradient(to top,black,purple);
+    box-sizing: border-box;
+    /* text-align: center; */
+    color: aliceblue;
+    padding: 20px;
+    /* display: flex; */
+    /* position: relative; */
+    margin-top: 50px;
+    gap: 30px;
+}
+.container2 h1{
+    text-align: center;
+    
+}
+.container2 p{
+  text-align: center;
+}
+
+.box3{
+    width: 1200px;
+    height: 300px;
+    background-color: transparent;
+    margin-left: 100px;
+    margin: auto;
+    display: flex;
+    text-align: unset;
+    gap: 30px;
+    position: relative;
+}
+.a1{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: aliceblue;
+}
+ .subform1{
+    width: 450px;
+    height: 300px;
+    background-color: black;
+    background-image: linear-gradient(to top,purple,black);
+    box-shadow: 10px 10px 10px 2px black;
+    /* opacity: 0.7; */
+}
+.subform1:hover{
+    opacity: 1;
+}
+.a1:hover{
+    opacity: 1;
+    width: 120px;
+    height:60px ;
+    transition: all 1s;
+    border: 2px solid white;
+    background-color: purple;
+}
+.a2:hover{
+    opacity: 1;
+    width: 120px;
+    height:60px ;
+    transition: all 1s;
+    border: 2px solid white;
+    background-color: purple;
+}
+
+.subform1 h2{
+    text-align: center;
+}
+.a1{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid aliceblue;
+      
+}
+.a2{
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid aliceblue;
+      
+}
+.a2{
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7EuN2l8m3c5GbW6UEt47noC0g-L54joKDZyQ1wwA80DR7xv2TwJ2yfLTUWUVzLHl8kvQ&usqp=CAU"); */
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    border: 2px solid aliceblue;
+      
+}
+.a2{
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid aliceblue;
+      
+}
+.nav1{
+    background-color: purple;
+    color: black;
+    text-decoration: none;
+}
+
+.subform2{
+    width: 450px;
+    height: 300px;
+    background-color: lightblue;
+    background-image: linear-gradient(to top,purple,black);
+    box-shadow: 10px 10px 10px 2px black;
+    position: absolute;
+    right: 0px;
+} 
+.subform2 h2{
+    text-align: center;
+}
+.container3{
+    width: 100%;
+    height: 750px;
+    background-color: red;
+    background-image: linear-gradient(to top,purple,black);
+}
+.container3 h1{
+    text-align: center;
+    color: aliceblue;
+}
+.container3 p{
+    text-align: center;
+    color: aliceblue;
+}
+.box4{
+    width: 600px;
+    height: 250px;
+    background-color: rgba(20, 16, 16, 0.801);
+    border: 3px solid purple;
+    opacity: 0.8;
+    /* text-align: justify; */
+    color: aliceblue;
+    margin: auto;
+}
+.box4 h2{
+   margin: 10px;
+}
+.box4 h5{
+    margin: 10px;
+
+}
+.box4 p{
+    margin: 10px;
+    text-align: justify;
+}
+.p1{
+    opacity: 0;
+    text-align: justify;
+}
+.box4:hover .p1 {
+    opacity: 1;
+    transition: all 1s;
+    }
+.box4:hover{
+
+    width: 600px;
+    height: 300px;
+    transition: all 1s;
+    opacity: 1;
+
+}
+.box5{
+    width: 600px;
+    height: 250px;
+    background-color: rgba(20,16,16,0.801);
+    opacity: 0.8;
+    margin-top: 30px;
+    /* text-align: justify; */
+    border: 3px solid purple;
+    color: aliceblue;
+    margin: auto;
+}
+.box5 h2{
+   margin: 10px;
+}
+.box5 h5{
+    margin: 10px;
+
+}
+.box5 p{
+    margin: 10px;
+    text-align: justify;
+}
+.box5:hover .p1 {
+    opacity: 1;
+    transition: all 1s;
+    }
+.box5:hover{
+
+    width: 600px;
+    height: 300px;
+    transition: all 1s;
+    opacity: 1;
+
+}
+.home:hover{
+    background-color: orange;
+}
+
+.container4{
+    width: 100%;
+    height: 1100px;
+    background-color: aquamarine;
+    /* background-image: linear-gradient(to top,skyblue,gray); */
+    background-image: linear-gradient(to top,blueviolet,purple);
+}
+.container4 h1{
+    text-align: center;
+    color: aliceblue;
+}
+.container4 h1:hover{
+    font-size: 55px;
+    color: blueviolet;
+    transition: all 1s;
+}
+.container4 p{
+    text-align: center;
+    color: aliceblue;
+}
+.pro{
+    width: 1200px;
+    height: 900px;
+    background-color: white;
+    padding: 20px;
+    margin-left: 60px;
+    margin: auto;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.task1{
+    width: 250px;
+    height: 300px;
+    background-color: darkcyan;
+    background-image: linear-gradient(to top,black,purple);
+    box-shadow: 10px 10px 10px 2px blueviolet;
+    border-radius: 10px;
+    margin-left: 40px;
+
+
+}
+.task1 button{
+    width: 60px;
+    height: 30px;
+    background-color: purple;
+    border: none;
+    margin-left: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+
+}
+.task1 button:hover{
+    background-color: orange;
+}
+.task1 h4{
+    margin: 10px;
+    color: aliceblue;
+}
+.task1 p{
+    margin: 10px;
+    color: aliceblue;
+    text-align: justify;
+}
+.f1:hover{
+    width: 240px;
+    height: 140px;
+    background-size: 240px 140px;
+    transition: all 1s;
+
+}
+.task1:hover{
+    width: 270px;
+    height: 320px;
+    transition: all 1s;
+}
+
+.task2{
+    width: 250px;
+    height: 300px;
+    background-color: darkcyan;
+    background-image: linear-gradient(to top,black,purple);
+    box-shadow: 10px 10px 10px 2px blueviolet;
+
+    border-radius: 10px;
+}
+.task2 button{
+    width: 60px;
+    height: 30px;
+    background-color: purple;
+    border: none;
+    margin-left: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+
+}
+.task2 button:hover{
+    background-color: orange;
+}
+.task2 h4{
+    margin: 10px;
+    color: aliceblue;
+}
+.task2 p{
+    margin: 10px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+
+
+.task3{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: darkcyan;
+    background-image: linear-gradient(to top,black,purple);
+    box-shadow: 10px 10px 10px 2px blueviolet;
+
+}
+.task3 button{
+    width: 60px;
+    height: 30px;
+    background-color: purple;
+    border: none;
+    margin-left: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+
+}
+.task3 button:hover{
+    background-color: orange;
+}
+.task3 h4{
+    margin: 10px;
+    color: aliceblue;
+}
+.task3 p{
+    margin: 10px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+.task4{
+    width: 250px;
+    height: 300px;
+    background-color: darkcyan;
+    background-image: linear-gradient(to top,black,purple);
+    box-shadow: 10px 10px 10px 2px blueviolet;
+
+    margin-left: 40px;
+    border-radius: 10px;
+}
+.task4 button{
+    width: 60px;
+    height: 30px;
+    background-color: purple;
+    border: none;
+    margin-left: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+
+}
+.task4 button:hover{
+    background-color: orange;
+}
+.task4 h4{
+    margin: 10px;
+    color: aliceblue;
+}
+.task4 p{
+    margin: 10px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+.task5{
+    width: 250px;
+    height: 300px;
+    background-color: darkcyan;
+    background-image: linear-gradient(to top,black,purple);
+    box-shadow: 10px 10px 10px 2px blueviolet;
+
+    border-radius: 10px;
+}
+.task5 button{
+    width: 60px;
+    height: 30px;
+    background-color: purple;
+    border: none;
+    margin-left: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+
+}
+.task5 button:hover{
+    background-color: orange;
+}
+.task5 h4{
+    margin: 10px;
+    color: aliceblue;
+}
+.task5 p{
+    margin: 10px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+
+.task6{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: darkcyan;
+    background-image: linear-gradient(to top,black,purple);
+    box-shadow: 10px 10px 10px 2px blueviolet;
+
+}
+.task6 button{
+    width: 60px;
+    height: 30px;
+    background-color: purple;
+    border: none;
+    margin-left: 10px;
+    color: aliceblue;
+    border-radius: 10px;
+
+}
+.task6 button:hover{
+    background-color: orange;
+}
+.task6 h4{
+    margin: 10px;
+    color: aliceblue;
+}
+.task6 p{
+    margin: 10px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+.f1{
+    width: 220px;
+    height: 120px;
+    background-color: chocolate;
+    background-image: url("./3img.png");
+    background-repeat: no-repeat;
+    background-size: 220px 120px;
+    margin: 10px;
+    margin-left: 10px;
+}
+.f2{
+    width: 220px;
+    height: 120px;
+    background-color: chocolate;
+    background-image: url("./4img.png");
+    background-repeat: no-repeat;
+    background-size: 220px 120px;
+    margin: 10px;
+    margin-left: 10px;
+}
+.f3{
+    width: 220px;
+    height: 120px;
+    background-color: chocolate;
+    background-image: url("./5img.png");
+    background-repeat: no-repeat;
+    background-size: 220px 120px;
+    margin: 10px;
+    margin-left: 10px;
+}
+.f4{
+    width: 220px;
+    height: 120px;
+    background-color: chocolate;
+    background-image: url("./6img.png");
+    background-repeat: no-repeat;
+    background-size: 220px 120px;
+    margin: 10px;
+    margin-left: 10px;
+}
+.f5{
+    width: 220px;
+    height: 120px;
+    background-color: chocolate;
+    background-image: url("./7img.png");
+    background-repeat: no-repeat;
+    background-size: 220px 120px;
+    margin: 10px;
+    margin-left: 10px;
+}
+.f6{
+    width: 220px;
+    height: 120px;
+    background-color: chocolate;
+    background-image: url("./8img.png");
+    background-repeat: no-repeat;
+    background-size: 220px 120px;
+    margin: 10px;
+    margin-left: 10px;
+}
+.f2:hover{
+    width: 240px;
+    height: 140px;
+    background-size: 240px 140px;
+    transition: all 1s;
+
+}
+.task2:hover{
+    width: 270px;
+    height: 320px;
+    transition: all 1s;
+}
+.f3:hover{
+    width: 240px;
+    height: 140px;
+    background-size: 240px 140px;
+    transition: all 1s;
+
+}
+.task3:hover{
+    width: 270px;
+    height: 320px;
+    transition: all 1s;
+}
+.f4:hover{
+    width: 240px;
+    height: 140px;
+    background-size: 240px 140px;
+    transition: all 1s;
+
+}
+.task4:hover{
+    width: 270px;
+    height: 320px;
+    transition: all 1s;
+}
+.f5:hover{
+    width: 240px;
+    height: 140px;
+    background-size: 240px 140px;
+    transition: all 1s;
+
+}
+.task5:hover{
+    width: 270px;
+    height: 320px;
+    transition: all 1s;
+}
+.f6:hover{
+    width: 240px;
+    height: 140px;
+    background-size: 240px 140px;
+    transition: all 1s;
+
+}
+.task6:hover{
+    width: 270px;
+    height: 320px;
+    transition: all 1s;
+}
+.container5{
+    width: 100%;
+    height: 500px;
+    background-color: gray;
+    background-image: linear-gradient(to top,blueviolet,purple);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box6{
+    width: 350px;
+    height: 400px;
+    background-color:pink ;
+    background-image: linear-gradient(to top,rgb(245, 94, 119),purple,black);
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+.box6 h2{
+    margin: 10px;
+    color: aliceblue;
+}
+.box6 input{
+    width: 330px;
+    height: 60px;
+}
+.box6 button{
+    width: 330px;
+    height: 60px;
+    background-image: linear-gradient(to top,black,purple);
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+}
+@media only screen and (min-width:300px) and (max-width:600px) {
+    .overall{
+        width: 300px;
+        height: 1100px;
+        padding: 10px;
+        /* flex-wrap: wrap; */
+    }
+    .container1{
+        width: 280px;
+        height: 1000px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* padding: 10px; */
+    }
+    .box1{
+        width: 280px;
+        height: 650px;
+        flex-grow: 1;
+    }
+    .box2{
+        width: 280px;
+        height: 250px;
+        flex-grow: 1;
+    }
+    .profile{
+        width: 200px;
+        height: 200px;
+        background-size: 200px 200px;
+        border-radius: 50%;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+    .container2{
+        width: 300px;
+        height: 1200px;
+        padding: 10px;
+    }
+    .box3{
+        width: 280px;
+        height: 940px;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+        margin-left: unset;
+        position: unset;
+    }
+    .subform1{
+            width: 260px;
+            height: 470px;
+    }
+    .subform2{
+        width: 260px;
+        height: 350px;
+        position: unset;
+}
+    .container3{
+        width: 300px;
+        height: 1000px;
+    }
+    .box4{
+        width: 280px;
+        height: 400px;
+    }
+    .box5{
+        width: 280px;
+        height: 400px;
+    }
+    .container4{
+        width: 300px;
+        height: 2200px;
+        padding: 10px;
+    }
+    .pro{
+        width: 280px;
+        height: 1900px;
+        margin-left: unset;
+        padding: 10px;
+        gap: 10;
+        grid-template-columns: auto;
+    }
+    .task1{
+        margin-left: 0px;
+    }
+    .task4{
+        margin-left: 0px;
+    }
+    .container5{
+        width: 300px;
+        height: 600px;
+        padding: 10px;
+        justify-content: unset;
+    align-items: unset;
+    }
+    .box6{
+        width: 280px;
+        height: 400px;
+        padding: 10px;
+    }
+    .box6 input{
+        width: 250px;
+        height: 60px;
+    }
+    .box6 button{
+        width: 250px;
+        height: 60px;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:900px) {
+    .overall{
+        width: 600px;
+        height: 800px;
+        padding: 10px;
+        /* flex-wrap: wrap; */
+    }
+    .container1{
+        width: 580px;
+        height: 650px;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        /* padding: 10px; */
+    }
+    .box1{
+        width: 290px;
+        height: 650px;
+        flex-grow: 1;
+    }
+    .box1 p{
+        margin-top: 20px;
+    }
+    .box1 h2{
+        margin: 0px;
+        margin-left: 10px;
+    }
+    .box2{
+        width: 290px;
+        height: 650px;
+        flex-grow: 1;
+    }
+    .profile{
+        width: 200px;
+        height: 200px;
+        background-size: 200px 200px;
+        border-radius: 50%;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    .container2{
+        width: 600px;
+        height: 800px;
+        padding: 10px;
+    }
+    .box3{
+        width: 580px;
+        height: 600px;
+        /* flex-direction: column; */
+        gap: 20px;
+        padding: 10px;
+        margin-left: unset;
+        position: unset;
+    }
+    .subform1{
+            width: 360px;
+            height: 470px;
+    }
+    .subform2{
+        width: 260px;
+        height: 470px;
+        position: unset;
+}
+    .container3{
+        width: 600px;
+        height: 1000px;
+    }
+    .box4{
+        width: 280px;
+        height: 400px;
+    }
+    .box5{
+        width: 280px;
+        height: 400px;
+    }
+    .container4{
+        width: 600px;
+        height: 1500px;
+        padding: 10px;
+    }
+    .pro{
+        width: 580px;
+        height: 1200px;
+        margin-left: unset;
+        padding: 10px;
+        gap: 10;
+        grid-template-columns: auto auto;
+    }
+    .task1{
+        margin-left: 0px;
+    }
+    .task4{
+        margin-left: 0px;
+    }
+    .container5{
+        width: 600px;
+        height: 600px;
+        padding: 10px;
+        justify-content: unset;
+    align-items: unset;
+    }
+    .box6{
+        width: 580px;
+        height: 400px;
+        padding: 10px;
+    }
+    .box6 input{
+        width: 550px;
+        height: 60px;
+    }
+    .box6 button{
+        width: 550px;
+        height: 60px;
+    }
+}
+@media only screen and (min-width:1000px) and (max-width:1400px) {
+    .overall{
+        width: 1000px;
+        height: 800px;
+        padding: 10px;
+        /* flex-wrap: wrap; */
+    }
+    .container1{
+        width: 980px;
+        height: 650px;
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        /* padding: 10px; */
+    }
+    .box1{
+        width: 490px;
+        height: 650px;
+        flex-grow: 1;
+    }
+    .box1 p{
+        margin-top: 20px;
+    }
+    .box1 h2{
+        margin: 0px;
+        margin-left: 10px;
+    }
+    .box2{
+        width: 490px;
+        height: 650px;
+        flex-grow: 1;
+    }
+    .profile{
+        width: 300px;
+        height: 300px;
+        background-size: 300px 300px;
+        border-radius: 50%;
+        margin-left: 40px;
+        margin-top: 80px;
+    }
+    .container2{
+        width: 1000px;
+        height: 800px;
+        padding: 10px;
+    }
+    .box3{
+        width: 980px;
+        height: 600px;
+        /* flex-direction: column; */
+        gap: 20px;
+        padding: 10px;
+        margin-left: unset;
+        position: unset;
+    }
+    .subform1{
+            width: 490px;
+            height: 470px;
+    }
+    .subform2{
+        width: 490px;
+        height: 470px;
+        position: unset;
+}
+    .container3{
+        width: 1000px;
+        height: 1000px;
+    }
+    .box4{
+        width: 480px;
+        height: 400px;
+    }
+    .box5{
+        width: 480px;
+        height: 400px;
+    }
+    .container4{
+        width: 1000px;
+        height: 1500px;
+        padding: 10px;
+    }
+    .pro{
+        width: 980px;
+        height: 1200px;
+        margin-left: unset;
+        padding: 10px;
+        gap: 10;
+        grid-template-columns: auto auto auto;
+    }
+    .task1{
+        margin-left: 0px;
+    }
+    .task4{
+        margin-left: 0px;
+    }
+    .container5{
+        width: 1000px;
+        height: 600px;
+        padding: 10px;
+        justify-content: unset;
+    align-items: unset;
+    }
+    .box6{
+        width: 880px;
+        height: 400px;
+        padding: 10px;
+    }
+    .box6 input{
+        width: 850px;
+        height: 60px;
+    }
+    .box6 button{
+        width: 850px;
+        height: 60px;
+    }
+}
